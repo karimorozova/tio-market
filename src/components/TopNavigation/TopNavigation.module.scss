@@ -47,6 +47,10 @@
   color: #ffffff;
   font-weight: 600;
 
+  &:hover, &:focus {
+    opacity: 0.7;
+  }
+
   @media (min-width: $media-desk) {
     min-height: 64px;
     min-width: 260px;

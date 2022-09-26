@@ -16,4 +16,8 @@
   width: 100px;
   padding: 0 10px;
   text-align: left;
+
+  &:hover, &:focus {
+    background-color: #e8e8e8;
+  }
 }
