@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9fd9068.css",
+    "main.js": "/static/js/main.47a51ce5.js",
+    "static/media/phone@2x.png": "/static/media/phone@2x.3230918e9e67ee6f510b.png",
+    "static/media/phone.png": "/static/media/phone.a35dee054906f7deef9c.png",
+    "static/media/photo.png": "/static/media/photo.ce51506d09d90ebc6483.png",
+    "static/media/open-sans-v34-latin-800.ttf": "/static/media/open-sans-v34-latin-800.b6f33f3714ef02c32fce.ttf",
+    "static/media/open-sans-v34-latin-300.ttf": "/static/media/open-sans-v34-latin-300.e57cd99d20fa05d6aa30.ttf",
+    "static/media/open-sans-v34-latin-700.ttf": "/static/media/open-sans-v34-latin-700.21e7a98d7c6637ef8cc6.ttf",
+    "static/media/open-sans-v34-latin-600.ttf": "/static/media/open-sans-v34-latin-600.8c07670b6f1f814c762a.ttf",
+    "static/media/open-sans-v34-latin-regular.ttf": "/static/media/open-sans-v34-latin-regular.9fc51a004b9a3278a60b.ttf",
+    "static/media/headline_stock_board_chicago.jpg": "/static/media/headline_stock_board_chicago.ca4abd4d2312dfff00c9.jpg",
+    "static/media/headline_shutterstock_330880379.jpg": "/static/media/headline_shutterstock_330880379.3893a40fc5b1e42c7ee6.jpg",
+    "static/media/open-sans-v34-latin-300.woff": "/static/media/open-sans-v34-latin-300.fbaa05ad22cd4594290a.woff",
+    "static/media/open-sans-v34-latin-regular.woff": "/static/media/open-sans-v34-latin-regular.7958f4e4a2bb8025ef86.woff",
+    "static/media/open-sans-v34-latin-600.woff": "/static/media/open-sans-v34-latin-600.f031bf84d9797276192c.woff",
+    "static/media/open-sans-v34-latin-800.woff": "/static/media/open-sans-v34-latin-800.85529d398dc9862d74fe.woff",
+    "static/media/open-sans-v34-latin-700.woff": "/static/media/open-sans-v34-latin-700.2867e720135399c4b665.woff",
+    "static/media/headline_OIL_06.jpg": "/static/media/headline_OIL_06.fb17d4a7a99b37f88e78.jpg",
+    "static/media/open-sans-v34-latin-600.woff2": "/static/media/open-sans-v34-latin-600.7ef3bbc98d285227e83a.woff2",
+    "static/media/open-sans-v34-latin-300.woff2": "/static/media/open-sans-v34-latin-300.c93abfae8b4c45ec0929.woff2",
+    "static/media/open-sans-v34-latin-regular.woff2": "/static/media/open-sans-v34-latin-regular.a1535f451fb7bb98f526.woff2",
+    "static/media/open-sans-v34-latin-800.woff2": "/static/media/open-sans-v34-latin-800.185f6b038323b60834d2.woff2",
+    "static/media/open-sans-v34-latin-700.woff2": "/static/media/open-sans-v34-latin-700.b245bc85ddeedb27a549.woff2",
+    "static/media/logo.svg": "/static/media/logo.84bf31f4f2ba15bfbd3af12d9462f1ae.svg",
+    "static/media/analysis.svg": "/static/media/analysis.78f026d45c147b2faee0d5549cfd4cae.svg",
+    "static/media/support.svg": "/static/media/support.07f4483953e8c5dd27572e0d4754e308.svg",
+    "static/media/trading.svg": "/static/media/trading.47b0afcff63be519d4e064418c412970.svg",
+    "static/media/ommissions.svg": "/static/media/ommissions.5c7412139062399d977a6fdacb6703ee.svg",
+    "static/media/green-line.svg": "/static/media/green-line.6acbddadfe720d3c88749dba0e1071e5.svg",
+    "static/media/grey-line.svg": "/static/media/grey-line.4633677213650fabb78fef04560dd605.svg",
+    "static/media/red-line.svg": "/static/media/red-line.a56bf7000e779dcfd04e7e1c1f88058d.svg",
+    "index.html": "/index.html",
+    "main.c9fd9068.css.map": "/static/css/main.c9fd9068.css.map",
+    "main.47a51ce5.js.map": "/static/js/main.47a51ce5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9fd9068.css",
+    "static/js/main.47a51ce5.js"
+  ]
+}
