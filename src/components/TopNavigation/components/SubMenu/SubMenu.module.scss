@@ -1,0 +1,112 @@
+@import '../../../../stylesheet/vars';
+
+.subMenu {
+  position: absolute;
+  left: 0;
+  top: 279px;
+  background: #e8e8e8;
+  width: 100%;
+  z-index: 3;
+
+  @media (min-width: $media-desk) {
+    top: 200px;
+  }
+}
+
+.container {
+  max-width: $media-hd;
+  margin: 0 auto;
+  padding: 80px 40px 22px 40px;
+
+  @media (min-width: $media-desk) {
+    display: flex;
+  }
+}
+
+.leftList {
+  margin-right: 106px;
+  margin-bottom: 20px;
+
+  @media (min-width: $media-desk) {
+    margin-bottom: 0;
+  }
+}
+
+.leftItem {
+  white-space: nowrap;
+  letter-spacing: -0.33px;
+  font-weight: 400;
+  font-size: 18px;
+
+  position: relative;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  &::before {
+    content: '';
+
+    position: absolute;
+    left: -23px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background: #ff7a04;
+  }
+}
+
+.title {
+  margin-bottom: 22px;
+  font-weight: 600;
+  letter-spacing: -0.33px;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+
+  @media (min-width: $media-desk) {
+    text-align: left;
+  }
+}
+
+.listPost {
+  @media (min-width: $media-desk) {
+    display: flex;
+  }
+}
+
+.itemPost {
+  width: 202px;
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: $media-desk) {
+    margin: 0;
+
+    &:not(:last-child) {
+      margin-right: 42px;
+    }
+  }
+}
+
+.picture {
+  margin-bottom: 22px;
+}
+
+.titlePost {
+  margin-bottom: 8px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.textPost {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+}

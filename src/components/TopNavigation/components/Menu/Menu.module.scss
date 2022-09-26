@@ -1,0 +1,62 @@
+@import '../../../../stylesheet/vars';
+
+@function getHeigth() {
+  @return 88px;
+}
+
+.menu {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: $media-desk) {
+    margin-right: 10px;
+  }
+}
+
+.menuList {
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: $media-desk) {
+    justify-content: left;
+  }
+}
+
+.menuItem {
+  font-weight: 400;
+  height: getHeigth();
+  line-height: getHeigth();
+  padding: 0 16px;
+  transition: 0.2s;
+  font-size: 12px;
+
+  display: flex;
+  align-items: center;
+
+  &.openMenu {
+    cursor: pointer;
+    background: #e8e8e8;
+    font-weight: 700;
+  }
+
+  @media (min-width: $media-desk) {
+    font-size: 18px;
+    padding: 0 26px;
+  }
+}
+
+.menuArrow {
+  display: block;
+  margin-left: 10px;
+  transform: rotate(90deg);
+
+  &.openMenu {
+    transform: rotate(-90deg);
+  }
+
+  @media (min-width: $media-desk) {
+    margin-left: 20px;
+  }
+}

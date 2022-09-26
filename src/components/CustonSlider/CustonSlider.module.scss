@@ -1,0 +1,75 @@
+@import '../../stylesheet/vars';
+
+.customSlider {
+  padding: 30px 16px;
+
+  @media (min-width: $media-desk) {
+    padding: 107px 16px 137px 16px;
+    display: flex;
+  }
+}
+
+.sliderList {
+  width: 308px;
+  margin: 0 auto;
+}
+
+.numberSlider {
+  letter-spacing: -1.85px;
+  color: #1259ff;
+  font-size: 100px;
+  font-weight: 300;
+
+  @media (min-width: $media-desk) {
+    margin-right: 32px;
+  }
+}
+
+.title {
+  letter-spacing: -0.52px;
+  color: #000000;
+  font-weight: 700;
+  font-style: 28px;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-weight: 400;
+  font-style: 17px;
+  letter-spacing: -0.47px;
+  margin-bottom: 20px;
+
+  &:last-child {
+    color: #989898;
+  }
+}
+
+.sliderImg {
+  margin: 0 auto;
+}
+
+.controllers {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonMove {
+  color: #1259ff;
+  font-size: 42px;
+  padding: 10px 20px;
+  transition: 0.2s;
+
+  @media (min-width: $media-desk) {
+    &:hover {
+      background: #e8e8e8;
+    }
+  }
+}
+
+.buttonMoveLeft {
+  margin-right: 20px;
+
+  @media (min-width: $media-desk) {
+    margin-right: 50px;
+  }
+}

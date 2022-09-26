@@ -1,0 +1,68 @@
+@import '../../stylesheet/vars';
+
+.mainSection {
+  position: relative;
+  min-height: 400px;
+
+  background-image: url('../../assets/img/main-section/phone.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: 30%;
+
+  @media (min-resolution: 192dpi), (min-resolution: 192dppx) {
+    background-image: url('../../assets/img/main-section/phone@2x.png');
+  }
+
+  @media (min-width: $media-tabl) {
+    min-height: 700px;
+    background-position: 100% 50%;
+  }
+
+  @media (min-width: $media-desk) {
+    background-size: contain;
+  }
+}
+
+.contentContainer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+
+  @media (min-width: $media-tabl) {
+    left: 10%;
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.title {
+  margin-bottom: 37px;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+
+  @media (min-width: $media-tabl) {
+    text-align: left;
+    font-size: 70px;
+    width: 530px;
+  }
+}
+
+.registrationButton {
+  background: #1259ff;
+  border-radius: 18px;
+  min-width: 218px;
+  min-height: 64px;
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 600;
+  display: block;
+  margin: 0 auto;
+
+  @media (min-width: $media-tabl) {
+    margin: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.currencyList {
+  display: flex;
+  width: 100%;
+
+  overflow-x: auto;
+  scrollbar-width: thin;
+  &::-webkit-scrollbar {
+    height: 6px;
+    background-color: #aaa;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #000;
+  }
+}

@@ -1,0 +1,54 @@
+@import '../../stylesheet/vars';
+
+.topNavigation {
+  background: #f8f8f8;
+}
+
+.container {
+  padding: 20px 16px;
+
+  @media (min-width: $media-desk) {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+  }
+
+  @media (min-width: $media-hd) {
+    width: $media-hd;
+    margin: 0 auto;
+  }
+}
+
+.logo {
+  svg {
+    margin: 0 auto 20px auto;
+  }
+
+  @media (min-width: $media-desk) {
+    margin-right: 96px;
+    svg {
+      margin: 0;
+    }
+  }
+}
+
+.containerDownMob {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.registrationButton {
+  min-height: 64px;
+  min-width: 180px;
+  background: #ff7a04;
+  border-radius: 18px;
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 600;
+
+  @media (min-width: $media-desk) {
+    min-height: 64px;
+    min-width: 260px;
+  }
+}

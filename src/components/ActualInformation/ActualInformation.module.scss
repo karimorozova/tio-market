@@ -1,0 +1,44 @@
+@import '../../stylesheet/vars';
+
+.actualInformation {
+  background: #00000029;
+  padding: 26px 16px;
+
+  @media (min-width: $media-desk) {
+    padding: 41px 16px 46px 16px;
+  }
+}
+
+.list {
+  @media (min-width: $media-tabl) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $media-hd) {
+    margin: 0 auto;
+    width: $media-hd;
+  }
+}
+
+.item {
+  @media (min-width: $media-tabl) {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
+.icon {
+  margin-bottom: 18px;
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  letter-spacing: -0.05px;
+  color: #5c5c5c;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
